@@ -1,6 +1,6 @@
 {
   "name": "@luxfi/eth-coinbase-keyring",
-  "version": "0.0.0-beta.0",
+  "version": "0.0.1",
   "description": "A keyring that uses the Coinbase Wallet SDK to sign transactions",
   "keywords": [
     "ethereum",
@@ -34,7 +34,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@coinbase/wallet-sdk": "beta",
+    "@coinbase/wallet-sdk": "4.0.4",
     "@ethereumjs/util": "^8.1.0",
     "@metamask/eth-sig-util": "^7.0.0",
     "@metamask/utils": "^8.1.0",
@@ -79,7 +79,6 @@
     "vite": "^5.0.2",
     "vue": "^3.3.8"
   },
-  "packageManager": "yarn@1.22.22",
   "engines": {
     "node": "^16.20 || ^18.16 || >=20"
   },
