@@ -151,7 +151,7 @@ class CoinbaseKeyring extends events_1.default {
         });
     }
     connect(opts) {
-        const options = Object.assign({ appName: 'Lux', appIcon: 'https://static-assets.lux.io/files/122da969-da58-42e9-ab39-0a8dd38d94b8.png' }, opts);
+        const options = Object.assign({ appName: 'Lux', appIcon: 'https://static-assets.rabby.io/files/122da969-da58-42e9-ab39-0a8dd38d94b8.png' }, opts);
         const { provider, relay } = __classPrivateFieldGet(this, _CoinbaseKeyring_instances, "m", _CoinbaseKeyring_initRelay).call(this, options);
         provider.on('disconnect', () => {
             const sessionData = __classPrivateFieldGet(this, _CoinbaseKeyring_sessions, "f")[relay.session.id];

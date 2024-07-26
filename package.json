@@ -1,6 +1,6 @@
 {
   "name": "@luxwallet/eth-coinbase-keyring",
-  "version": "0.0.0-beta.0",
+  "version": "0.0.0-beta.1",
   "description": "A keyring that uses the Coinbase Wallet SDK to sign transactions",
   "keywords": [
     "ethereum",
