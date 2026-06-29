@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="eth-coinbase-keyring" width="880"></p>
+
 # Coinbase Keyring
 
 ## The Keyring Class Protocol
